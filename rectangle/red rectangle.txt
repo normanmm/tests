@@ -1,0 +1,16 @@
+** From https://platform.openai.com/codex-javascript-sandbox 11.2.23 **
+Clear all
+Export to JSFiddle
+/* please write css code to display a vertical rectangle sucg that  the horizontal side  takes 10% of the screen widht and the vertical side takes 20% of it */
+
+var rect = document.createElement('div');
+rect.style.width = '10%';
+rect.style.height = '20%';
+rect.style.backgroundColor = 'red';
+document.body.appendChild(rect);
+
+/* locate the rectangle so the distance with the upper side is 20% down off the screen top and the right side is 30% left off the screen right side */
+
+rect.style.position = 'absolute';
+rect.style.top = '20%';
+rect.style.righ
